@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="./js/index.js" defer></script>
+    </head>
+    <body>
+        <header class="header shadow-lg">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#project">Projects</a></li>
+                </ul>
+            </nav>
+
+            <a class="contact" href="#contact"><button>Contact</button></a>
+        </header>
+
+        <section id="hero">
+            <div class="hero container">
+                <div>
+                    <h1>Hello, my name is An<span></span></h1>
+                    <h1>This is my Personal Portfolio<span></span></h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about container">
+                <a href="./downloadables/work_resume.pdf" class="resume">Download Resume</a>
+
+                <div class="col-left">
+                    <div class="about-img">
+                        <img
+                            class="resize"
+                            src="./img/IMG_2470.jpg"
+                            alt="img"
+                        />
+                    </div>
+                </div>
+
+                <div class="col-right space">
+                    <h1 class="section-title">About me</h1>
+                    <h2>Undergraduate in Computer Science</h2>
+                    <p>
+                        I am a sophomore student at A&M University, College
+                        Station. I've been passionate about coding ever since
+                        discovering it in 10th grade, and I now wish to use my
+                        knowledge of programming to create a greener, more
+                        technologically advanced world. My academic interests
+                        lie within all sorts of computer science topics, whether
+                        that be web development, machine learning, or software
+                        security. Outside of studying and coding, I like to
+                        pursue my numerous hobbies: guitar, singing, Teamfight
+                        Tactics, and going to the gym.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project">
+            <div class="project container" data-carousel>
+                <h1 class="section-title">My Projects</h1>
+
+
+                <button class="carousel-button prev" data-carousel-button="prev">&#8249;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#8250;</button>
+                    
+                <ul class="slides" data-slides>
+                    <li class="slide" data-active>
+                        <a href="https://github.com/waterdoze/GameForClass"><img class="resize" src="./img/towerdefense.png" alt="Project Image #1"></a>
+                    </li>
+                    <li class="slide">
+                        <a href="https://github.com/waterdoze/Blog"><img class="resize" src="./img/projectblog.png" alt="Project Image #2"></a>
+                    </li>
+                    <li class="slide">
+                        <a href="https://github.com/waterdoze/Minesweeper"><img class="resize" src="./img/minesweeper_start.png" alt="Project Image #2"></a>
+                    </li>
+                </ul>
+                
+            </div>
+
+            
+
+        </section>
+
+        <section id="contact">
+            <div class="contact container">
+                <div class="space">
+                    <h1 class="section-title">Contact Info</h1>
+                </div>
+                <div class="contact-items">
+
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img class="resize" src="./img/phone.png">
+                        </div>
+                        <div class="contact-info">
+                            <h1>Phone</h1>
+                            <h2>+1 (346) 280-7383</h2>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img class="resize" src="./img/mail.png">
+                        </div>
+                        <div class="contact-info">
+                            <h1>Email</h1>
+                            <h2>anqduong2003@gmail.com</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img class="resize" src="./img/map.png">
+                        </div>
+                        <div class="contact-info">
+                            <h1>Address</h1>
+                            <h2>15318 Grand Sage Drive</h2>
+                            <h2>Cypress, TX 77429</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="footer container">
+                <div class="brand"><h1>An Duong</h1></div>
+
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="https://www.linkedin.com/in/an-duong-4a8b951a8/"><img class="resize" src="./img/icons8-linkedin-circled-50.png"></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://github.com/waterdoze"><img class="resize" src="./img/icons8-github-64.png"></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://twitter.com/aduuoong"><img class="resize" src="./img/icons8-twitter-128.png"></a>
+                    </div>
+                </div>
+
+                <p>Copyright © 2022 An Duong. All rights reserved</p>
+            </div>
+        </section>
+    </body>
+</html>
